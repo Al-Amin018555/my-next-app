@@ -59,8 +59,8 @@ const BlogsPage = () => {
             {
                 blogs.map((blog) => <div key={blog.id}>
                     <h2>{blog.title}</h2>
-                    <Link href={'/'}>Show Details</Link>
-                </div> )
+                    <Link href={`/blogs/${blog.id}`}>Show Details</Link>
+                </div>)
             }
         </div>
     );
