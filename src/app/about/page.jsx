@@ -1,6 +1,11 @@
 import Image from "next/image";
 import kamrul from '../../assets/images/kamrul.jpg'
 
+export const metadata = {
+  title: 'About',
+  description: '...',
+}
+
 const AboutPage = () => {
     return (
         <div>
